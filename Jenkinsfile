@@ -1,7 +1,7 @@
 pipeline {
 			agent any 
 			stages {
-				stage('Build') {
+				stage('Harish') {
 					steps {
 					sh 'sleep 5; echo "this is build stage"'
 					}

@@ -1,17 +1,17 @@
 pipeline {
 			agent any 
 			stages {
-				stage('Harish') {
+				stage('Build') {
 					steps {
 					sh 'sleep 1; echo "this is build stage"'
 					}
 				}
-				stage('santhosh'){
+				stage('test'){
 					steps {
 					sh 'sleep 1; echo "this is test stage"'
 					}
 				}
-				stage('arshad'){
+				stage('depoloy'){
 					steps {
 					sh 'sleep 1; echo "this is deploy stage"'
 					}

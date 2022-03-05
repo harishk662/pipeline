@@ -3,22 +3,22 @@ pipeline {
 			stages {
 				stage('Harish') {
 					steps {
-					sh 'sleep 5; echo "this is build stage"'
+					sh 'sleep 1; echo "this is build stage"'
 					}
 				}
-				stage('Test'){
+				stage('santhosh'){
 					steps {
-					sh 'sleep 5; echo "this is test stage"'
+					sh 'sleep 1; echo "this is test stage"'
 					}
 				}
-				stage('Deploy'){
+				stage('arshad'){
 					steps {
-					sh 'sleep 5; echo "this is deploy stage"'
+					sh 'sleep 1; echo "this is deploy stage"'
 					}
 				}
 				stage('my-own-work'){
 					steps {
-					sh 'sleep 5; echo "this is my stage"'
+					sh 'sleep 1; echo "this is my stage"'
 					}
 				}	
 			}
